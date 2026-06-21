@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+*.local
+_reference/_cprofile
+_reference/frame-*.png
+_reference/shot-*.png

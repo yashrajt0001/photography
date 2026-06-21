@@ -1,0 +1,68 @@
+.ig {
+  background: var(--bg);
+  padding-bottom: clamp(60px, 9vw, 120px);
+}
+.ig__head {
+  text-align: center;
+  margin-bottom: clamp(40px, 6vw, 72px);
+}
+.ig__handle {
+  display: inline-block;
+  margin-top: 0.4em;
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(1.6rem, 4vw, 3rem);
+  color: var(--heading);
+  transition: color 0.4s var(--ease);
+}
+.ig__handle em {
+  font-style: italic;
+  color: var(--detail);
+}
+.ig__handle:hover {
+  color: var(--detail);
+}
+
+.ig__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(6px, 0.8vw, 12px);
+  padding: 0 clamp(6px, 0.8vw, 12px);
+}
+.ig__tile {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: var(--cream);
+}
+.ig__tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s var(--ease);
+}
+.ig__tile:hover img {
+  transform: scale(1.07);
+}
+.ig__icon {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: rgba(116, 96, 90, 0.42);
+  opacity: 0;
+  transition: opacity 0.45s var(--ease);
+}
+.ig__tile:hover .ig__icon {
+  opacity: 1;
+}
+.ig__cta {
+  text-align: center;
+  margin-top: clamp(40px, 6vw, 72px);
+}
+
+@media (max-width: 760px) {
+  .ig__grid { grid-template-columns: repeat(2, 1fr); }
+}

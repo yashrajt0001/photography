@@ -1,0 +1,47 @@
+.fab {
+  position: fixed;
+  right: clamp(16px, 4vw, 26px);
+  bottom: clamp(16px, 4vw, 26px);
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: var(--btn);
+  color: #fff;
+  box-shadow: 0 14px 30px -12px rgba(49, 48, 46, 0.6);
+  /* hidden until scrolled past the hero — start near-shape, never scale(0) */
+  opacity: 0;
+  transform: scale(0.9) translateY(8px);
+  pointer-events: none;
+  transition: opacity 0.4s cubic-bezier(0.23, 1, 0.32, 1),
+    transform 0.45s cubic-bezier(0.23, 1, 0.32, 1), background 0.4s ease;
+  will-change: transform, opacity;
+}
+.fab--in {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  pointer-events: auto;
+}
+.fab:active {
+  transform: scale(0.95);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .fab:hover {
+    background: var(--btn-hover);
+    transform: translateY(-3px);
+  }
+}
+
+/* desktop has the navbar Call button — no floating button needed */
+@media (min-width: 992px) {
+  .fab { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fab { transition: opacity 0.3s ease; transform: none; }
+  .fab--in { transform: none; }
+}
