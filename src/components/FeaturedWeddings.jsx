@@ -3,9 +3,9 @@ import './FeaturedWeddings.css'
 // During homepage-only review these point to the on-page gallery (#gallery).
 // When the Wedding page is live, swap href="#gallery" back to <Link to="/wedding">.
 const STORIES = [
-  { name: 'Harshita & Nicky', place: 'Goa', date: 'March 11, 2024', img: '/images/featured-harshita.jpg' },
-  { name: 'Ria & Kashyap', place: 'Mumbai', date: 'March 2, 2024', img: '/images/featured-ria.jpg' },
-  { name: 'Jobin & Anjali', place: 'Kerala', date: 'May 28, 2023', img: '/images/featured-jobin.jpg' },
+  { name: 'Aanya & Veer', place: 'Goa', date: 'March 11, 2024', img: '/images/featured-harshita.jpg' },
+  { name: 'Tara & Aryan', place: 'Udaipur', date: 'March 2, 2024', img: '/images/featured-ria.jpg' },
+  { name: 'Naina & Karan', place: 'Kerala', date: 'May 28, 2023', img: '/images/featured-jobin.jpg' },
 ]
 
 export default function FeaturedWeddings() {

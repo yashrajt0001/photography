@@ -1,5 +1,5 @@
 /* ============================================================
-   THE PHOTO STORE — design tokens & base
+   DEMO — design tokens & base
    Palette derived from source: warm taupe / cream
    Display: Fraunces (≈ Freight Big Pro)  ·  Sans: Montserrat (≈ Sofia Pro)
    ============================================================ */
@@ -23,6 +23,7 @@
 
   --font-display: 'Fraunces', 'Times New Roman', serif;
   --font-sans: 'Montserrat', system-ui, sans-serif;
+  --font-logo: 'Marcellus', 'Times New Roman', serif;
 
   --maxw: 1480px;
   --gutter: clamp(20px, 5vw, 90px);

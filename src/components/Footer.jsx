@@ -7,10 +7,10 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__top">
-        <Link to="/" className="footer__logo" aria-label="The Photo Store — home">
-          <img src="/logo.png" alt="The Photo Store" />
+        <Link to="/" className="footer__logo" aria-label="Demo — home">
+          <span className="footer__logo-text">Demo</span>
         </Link>
-        <p className="footer__tag">Wedding Photographers &amp; Filmmakers · Mumbai, India</p>
+        <p className="footer__tag">Wedding Photographers &amp; Filmmakers</p>
         <div className="footer__contact">
           <a href={`tel:${PHONE_TEL}`}>{PHONE}</a>
           <span aria-hidden>·</span>
@@ -44,7 +44,7 @@ export default function Footer() {
       </div>
 
       <div className="footer__bottom">
-        <span>All content Copyright © {year} THE PHOTO STORE</span>
+        <span>All content Copyright © {year} DEMO</span>
         <span className="footer__credit">Crafted with care</span>
       </div>
     </footer>

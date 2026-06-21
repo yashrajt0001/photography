@@ -7,7 +7,7 @@ import 'swiper/css/pagination'
 import './Hero.css'
 
 const SLIDES = [
-  { src: '/images/hero-1.jpg', alt: 'Wedding photography by The Photo Store' },
+  { src: '/images/hero-1.jpg', alt: 'Wedding photography' },
   { src: '/images/hero-2.jpg', alt: 'Candid wedding moment' },
   { src: '/images/hero-3.jpg', alt: 'Bride portrait' },
   { src: '/images/hero-4.jpg', alt: 'Couple at golden hour' },
@@ -56,7 +56,7 @@ export default function Hero() {
       </button>
 
       <div className="hero__caption">
-        <span className="hero__eyebrow">Mumbai &middot; Weddings &amp; Films</span>
+        <span className="hero__eyebrow">Weddings &amp; Films</span>
         <h1 className="hero__title">
           Moments,<br />beautifully <em>told</em>.
         </h1>

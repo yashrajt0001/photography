@@ -7,28 +7,28 @@ import './Testimonials.css'
 
 const ITEMS = [
   {
-    couple: 'Steffi & Bradley',
+    couple: 'Aarav & Diya',
     img: '/images/couple-1.jpg',
     quote:
-      'Choosing The Photo Store was one of the best decisions we made during our wedding planning process. They helped us achieve the Pinterest-perfect wedding we dreamed of.',
+      'Choosing this team was one of the best decisions we made during our wedding planning. They helped us achieve the Pinterest-perfect wedding we dreamed of.',
   },
   {
-    couple: 'Luiza & Klins',
+    couple: 'Kabir & Anaya',
     img: '/images/couple-4.jpg',
     quote:
-      'We booked Photostore for my roce, wedding and portone ceremony. The team has captured the moments from our day so beautifully. The photos transported us to different moments and emotions we felt on our big day. The depth, drama, play of light, angle and creativity has been excellent. Risham is extremely passionate about his work — a warm person, very professional, who invests time in understanding the couple. You can literally trust him blindly. Wishing the team all the very best!',
+      'They captured the moments from our day so beautifully — the photos transported us back to the emotions we felt on our big day. The depth, drama, play of light and creativity were excellent. The whole team is passionate, warm and professional, and invests real time in understanding the couple. You can trust them completely. Wishing them all the very best!',
   },
   {
-    couple: 'Ankit & Priya',
+    couple: 'Vivaan & Mira',
     img: '/images/couple-7.jpg',
     quote:
-      'The Photo Store team captured our special day flawlessly! From the moment we met, their professionalism and passion for photography were evident. The photos they delivered were nothing short of breathtaking — they perfectly captured the joy, love and emotion of our wedding day. We highly recommend them to any couple looking for a talented and dedicated photographer.',
+      'The team captured our special day flawlessly! From the moment we met, their professionalism and passion for photography were evident. The photos they delivered were nothing short of breathtaking — they perfectly captured the joy, love and emotion of our wedding day. Highly recommended.',
   },
   {
-    couple: 'Harshita & Nicky',
+    couple: 'Rohan & Sara',
     img: '/images/couple-10.jpg',
     quote:
-      'We absolutely loved working with The Photo Store! They captured every special moment of our wedding beautifully, and their team made us feel so comfortable and at ease throughout the day. The photos are stunning, full of emotion, and truly tell the story of our day. Highly recommend them for anyone looking for amazing, heartfelt photography!',
+      'We absolutely loved working with this team! They captured every special moment beautifully, and made us feel so comfortable and at ease throughout the day. The photos are stunning, full of emotion, and truly tell the story of our day.',
   },
 ]
 

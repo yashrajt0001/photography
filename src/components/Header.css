@@ -36,16 +36,19 @@
   left: clamp(12px, 1.8vw, 32px);
   transform: translate(0, -50%);
 }
-.header__logo img {
-  display: block;
-  height: clamp(46px, 5vw, 74px);
-  width: auto;
-  filter: invert(1) brightness(2.4); /* white over the hero */
-  transition: height 0.5s var(--ease), filter 0.5s var(--ease);
+.header__logo-text {
+  font-family: var(--font-logo);
+  font-size: clamp(1.5rem, 2.4vw, 2.05rem);
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #fff; /* white over the hero */
+  text-shadow: 0 1px 14px rgba(38, 35, 34, 0.5);
+  transition: color 0.5s var(--ease), text-shadow 0.5s var(--ease);
 }
-.site-header--solid .header__logo img {
-  filter: none;
-  height: clamp(38px, 4vw, 56px);
+.site-header--solid .header__logo-text {
+  color: var(--text-strong);
+  text-shadow: none;
 }
 
 /* ---------- right-side actions ---------- */

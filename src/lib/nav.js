@@ -9,17 +9,18 @@ export const NAV = [
   { label: 'Contact', to: '/contact', live: false },
 ]
 
+// Placeholder social links — swap with the client's real profiles.
 export const SOCIALS = [
-  { label: 'Instagram', href: 'https://www.instagram.com/thephotostore.in/' },
-  { label: 'Facebook', href: 'https://www.facebook.com/thephotostore.in/' },
-  { label: 'YouTube', href: 'https://www.youtube.com/channel/UCs_WiWXDxJH1Pi5h9hMxmLw/videos' },
+  { label: 'Instagram', href: '#' },
+  { label: 'Facebook', href: '#' },
+  { label: 'YouTube', href: '#' },
 ]
 
-export const CONTACT_FORM =
-  'https://app.studioninja.co/contactform/hosted/0a800fc8-8c59-1afd-818c-a4c4979d3c6f/0a800fc8-8ca5-1573-818c-aa42d13a2d09'
+// Placeholder contact form — point to the client's form/booking link.
+export const CONTACT_FORM = '#'
 
 // TODO: replace with the client's real contact details
-export const PHONE = '+91 98765 43210'
-export const PHONE_TEL = '+919876543210'
-export const EMAIL = 'hello@thephotostore.in'
-export const WHATSAPP = 'https://wa.me/919876543210'
+export const PHONE = '+91 89557 74776'
+export const PHONE_TEL = '+918955774776'
+export const EMAIL = 'yeshrajteli12345@gmail.com'
+export const WHATSAPP = 'https://wa.me/918955774776'

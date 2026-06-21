@@ -38,8 +38,8 @@ export default function Header({ lenis }) {
       <div className={`site-header${scrolled ? ' site-header--solid' : ''}`}>
         <header className="header">
           <div className="header__inner">
-            <Link to="/" className="header__logo" aria-label="The Photo Store — home">
-              <img src="/logo.png" alt="The Photo Store" />
+            <Link to="/" className="header__logo" aria-label="Demo — home">
+              <span className="header__logo-text">Demo</span>
             </Link>
             <nav className="header__nav" aria-label="Primary">
               {NAV.map((item) =>

@@ -6,7 +6,7 @@ export default function Intro() {
       <div className="container intro__grid">
         <div className="intro__media">
           <figure className="intro__img intro__img--main img-reveal">
-            <img src="/images/intro-4.jpg" alt="The Photo Store — wedding photography" loading="lazy" />
+            <img src="/images/intro-4.jpg" alt="Wedding photography" loading="lazy" />
           </figure>
           <figure className="intro__img intro__img--accent img-reveal" data-reveal-delay="2">
             <img src="/images/intro-2.jpg" alt="Candid couple portrait" loading="lazy" />
@@ -16,10 +16,10 @@ export default function Intro() {
         <div className="intro__copy">
           <span className="eyebrow" data-reveal>Hello</span>
           <h2 className="intro__title" data-reveal data-reveal-delay="1">
-            Welcome to <em>The&nbsp;Photo&nbsp;Store</em>
+            Welcome to <em>our&nbsp;studio</em>
           </h2>
           <p className="intro__lead" data-reveal data-reveal-delay="2">
-            At The Photo Store &amp; team, our aim is to give our great photography &amp; films to you.
+            Our aim is to give you our very best in photography &amp; films.
           </p>
           <p className="intro__body" data-reveal data-reveal-delay="3">
             Having been assigned to capture the most important days in your life, we leave no stone

@@ -55,7 +55,7 @@ export default function App() {
               Re-enable by uncommenting these routes (and flip `live` in src/lib/nav.js):
           <Route path="/wedding" element={<Placeholder title="Weddings" eyebrow="The Stories" />} />
           <Route path="/films" element={<Placeholder title="Films" eyebrow="Motion" />} />
-          <Route path="/about" element={<Placeholder title="About Us" eyebrow="The Photo Store" />} />
+          <Route path="/about" element={<Placeholder title="About Us" eyebrow="Demo Studio" />} />
           <Route path="/contact" element={<Placeholder title="Get in Touch" eyebrow="Say hello" />} />
           */}
           {/* any unknown / disabled path falls back to the homepage */}
